@@ -15,14 +15,14 @@ This project is an example of a Node.js application using Express.js to interact
    npm install
 
 3. Create a `.env` file in the project root with these variables:
-   API_BASE_URL=https://api.ingrammicro.com/sandbox
-   SESSION_SECRET=your-secret-key
-   IM_CUSTOMERCONTACT=your-customer-contact
-   IM_COUNTRYCODE=your-country-code
-   IM_CUSTOMER_NUMBER=your-customer-number
-   IM_CORRELATION_ID=your-correlation-id
-   IM_SENDERID=your-sender-id
-   PORT=3000
+   API_BASE_URL=https://api.ingrammicro.com/sandbox  
+   SESSION_SECRET=your-secret-key  
+   IM_CUSTOMERCONTACT=your-customer-contact  
+   IM_COUNTRYCODE=your-country-code  
+   IM_CUSTOMER_NUMBER=your-customer-number  
+   IM_CORRELATION_ID=your-correlation-id  
+   IM_SENDERID=your-sender-id  
+   PORT=3000  
 
 ## Usage
 npm start
@@ -46,13 +46,13 @@ Visit http://localhost:3000
 
 ## Dependencies
 {
-  "axios": "^1.7.9",
-  "dotenv": "^8.2.0",
-  "ejs": "^3.1.5",
-  "express": "^4.17.1",
-  "express-session": "^1.17.1",
-  "json-viewer": "^1.1.0",
-  "simple-update-notifier": "^2.0.0"
+  "axios": "^1.7.9",  
+  "dotenv": "^8.2.0",  
+  "ejs": "^3.1.5",  
+  "express": "^4.17.1",  
+  "express-session": "^1.17.1",  
+  "json-viewer": "^1.1.0",  
+  "simple-update-notifier": "^2.0.0"  
 }
 
 ### Dev Dependencies
@@ -61,21 +61,21 @@ Visit http://localhost:3000
 }
 
 ## Project Structure
-.
-├── src
-│   ├── utils
-│   │   ├── apiClient.js
-│   │   ├── apiGetToken.js
-│   │   ├── orderSearch.js
-│   │   ├── productSearch.js
-│   │   ├── quoteSearch.js
-│   │   └── orderDetail.js
-│   ├── views
-│   │   └── index.ejs
-│   └── index.js
-├── .env
-├── package.json
-└── README.md
+.  
+├── src  
+│   ├── utils  
+│   │   ├── apiClient.js  
+│   │   ├── apiGetToken.js  
+│   │   ├── orderSearch.js  
+│   │   ├── productSearch.js  
+│   │   ├── quoteSearch.js  
+│   │   └── orderDetail.js  
+│   ├── views  
+│   │   └── index.ejs  
+│   └── index.js  
+├── .env  
+├── package.json  
+└── README.md  
 
 ## License
 MIT License# IMSnippetJS
