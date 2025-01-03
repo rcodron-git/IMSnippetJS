@@ -8,7 +8,7 @@ This project is an example of a Node.js application using Express.js to interact
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/yourusername/im-express-example.git
+   git clone [(https://github.com/rcodron-git/IMSnippetJS)](https://github.com/rcodron-git/IMSnippetJS)
    cd im-express-example
 
 2. Install dependencies:
